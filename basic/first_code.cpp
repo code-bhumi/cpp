@@ -1,7 +1,10 @@
-#include <iostream>
+#include  <iostream>
 
-int main()
-{
-    std::cout << "This is an amazing day";
+int sum(int a, int b) {
+    return a + b;
+}
+
+int main() {
+    std::cout << "5 + 3 == " << sum(5, 3) << std::endl;
     return 0;
 }
