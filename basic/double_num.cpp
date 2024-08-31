@@ -7,8 +7,8 @@ int main()
     int num{ };
 
     std::cin >> num ;
-    num = num * 2 ;
-    std::cout << "Double that number is " << num << '\n';
+    
+    std::cout << "Double that number is: " << num * 2 << '\n';
 
     return 0;
 
