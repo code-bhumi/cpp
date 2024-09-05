@@ -1,13 +1,8 @@
 #include <iostream>
+#include "io.h"
+#pragma
 
-
-int getIntegerFromUser()
-{
-    std::cout << "Enter an integer: " << '\n';
-    int x{ };
-    std::cin >> x;
-    return x;
-}
+int getIntegerFromUser();
 
 int main()
 {
