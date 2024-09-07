@@ -14,4 +14,5 @@ int main()
     else
     std::cout << x << " is odd " << '\n';
     
+    return 0;
 }
